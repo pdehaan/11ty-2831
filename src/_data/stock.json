@@ -1,0 +1,30 @@
+[
+  {
+    "brand": "Audi",
+    "tags": ["audi", "used"],
+    "stock": [
+      {
+        "range": "TT",
+        "model": "40 TFSI Sport",
+        "derivative": "40 TFSI Sport 2dr S Tronic",
+        "price": "27,950"
+      },
+      {
+        "range": "e-tron",
+        "model": "300kw 55 Quattro Technik",
+        "derivative": "300kW 55 Quattro 95kWh Technik 5dr Auto"
+      }
+    ]
+  },
+  {
+    "brand": "BMW",
+    "tags": ["bmw", "used"],
+    "stock": [
+      {
+        "range": "1 Series",
+        "model": "M140i Shadow Edition",
+        "derivative": "M140i Shadow Edition 5dr Step Auto"
+      }
+    ]
+  }
+]
