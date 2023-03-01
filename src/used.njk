@@ -1,0 +1,22 @@
+---
+title: Used cars
+---
+
+
+
+<h2>USED ({{ collections.used | length }})</h2>
+{% for p in collections.used %}
+  v={{ p.data.tags }}; {{ p.data.vehicle | keys }}
+{% endfor %}
+
+<h2>BMW</h2>
+{% for p in collections.bmw %}
+{%- set v = p.data.vehicle -%}
+- <strong>{{ v.brand }}</strong> {{ v.derivative }}
+{% endfor %}
+
+<h2>Audi</h2>
+{% for p in collections.audi %}
+{%- set v = p.data.vehicle -%}
+- <strong>{{ v.brand }}</strong> {{ v.derivative }}
+{% endfor %}

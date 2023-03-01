@@ -6,9 +6,8 @@
   "bugs": {
     "url": "https://github.com/pdehaan/11ty-2831/issues"
   },
-  "dependencies": {},
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.0"
+    "@11ty/eleventy": "^1.0.2"
   },
   "homepage": "https://github.com/pdehaan/11ty-2831#readme",
   "keywords": [],
@@ -19,6 +18,7 @@
     "url": "git+https://github.com/pdehaan/11ty-2831.git"
   },
   "scripts": {
+    "prebuild": "rm -rf www",
     "build": "eleventy",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
